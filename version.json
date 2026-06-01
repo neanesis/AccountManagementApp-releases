@@ -1,5 +1,5 @@
-﻿{
-    "download_url":  "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.0.1",
-    "version":  "1.0.1",
-    "notes":  "Export CSV et Excel depuis le journal d\u0027audit, purge avec archivage, bouton Tester la connexion Graph, raccourci Ctrl+H, reordonnement des onglets, masquer/afficher les onglets, dialogue A propos."
+{
+    "download_url":  "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.0.3",
+    "version":  "1.0.3",
+    "notes":  "Ajout du menu Aide > Verifier les mises a jour pour un check manuel avec retour visuel."
 }

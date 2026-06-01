@@ -1,6 +1,6 @@
 {
+    "version": "1.0.3",
     "download_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.0.3",
     "installer_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.0.3/AccountManagementApp-1.0.3-Setup.exe",
-    "version": "1.0.3",
-    "notes": "Ajout du menu Aide > Verifier les mises a jour pour un check manuel avec retour visuel."
+    "notes": "Validation des champs (email, date, booleen), spinner de recherche, resume post-sauvegarde, raccourci F5."
 }

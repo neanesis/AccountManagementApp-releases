@@ -1,6 +1,6 @@
 {
-    "version": "1.1.0",
-    "download_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.1.0",
-    "installer_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.0/AccountManagementApp-1.1.0-Setup.exe",
-    "notes": "Nouveau design enterprise : theme clair/sombre, icone AM, validation des champs, spinner de recherche, resume post-sauvegarde, raccourci F5."
+    "version": "1.1.1",
+    "download_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.1.1",
+    "installer_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.1/AccountManagementApp-1.1.1-Setup.exe",
+    "notes": "Corrige le rollback Canvas (champs identifiant), les couleurs d'en-tetes Liaisons et le spinner de recherche (anime desormais sur tous les onglets). Audit qualite/securite interne."
 }

@@ -8,7 +8,7 @@ Application de bureau Windows pour rechercher et modifier des comptes utilisateu
 
 | Version | Installeur | MSI (déploiement silencieux) |
 |---|---|---|
-| **1.1.1** *(dernière)* | [AccountManagementApp-1.1.1-Setup.exe](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.1/AccountManagementApp-1.1.1-Setup.exe) | [AccountManagementApp-1.1.1.msi](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.1/AccountManagementApp-1.1.1.msi) |
+| **1.1.2** *(dernière)* | [AccountManagementApp-1.1.2-Setup.exe](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.2/AccountManagementApp-1.1.2-Setup.exe) | [AccountManagementApp-1.1.2.msi](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.2/AccountManagementApp-1.1.2.msi) |
 
 Toutes les versions : [Releases →](https://github.com/neanesis/AccountManagementApp-releases/releases)
 
@@ -60,6 +60,7 @@ Toutes les versions : [Releases →](https://github.com/neanesis/AccountManageme
 - **CSV aller-retour** — exporter → modifier dans Excel → réimporter comme modifications en attente
 - **Mise à jour automatique** — vérification au démarrage, téléchargement et installation silencieux
 - **Thème clair / sombre** — Menu Outils → Mode sombre, préférence sauvegardée par profil
+- **Connecteurs extensibles** — un connecteur standard s'ajoute en déposant un fichier `.py` dans `%APPDATA%\AccountManagementApp\connectors\` (sans réinstaller) ; il obtient automatiquement un onglet et un formulaire de configuration. Menu **Outils → Connecteurs** pour voir les connecteurs chargés
 
 ---
 
@@ -90,6 +91,11 @@ L'application nécessite un fichier `license.json` fourni par votre administrate
 ---
 
 ## Changelog
+
+### 1.1.2 — 2026-06-03
+- **Connecteurs extensibles** : ajout d'un connecteur en déposant un fichier, sans réinstaller (menu Outils → Connecteurs)
+- Correction du **surlignage des cellules** (jaune « modifié » / rouge « invalide ») qui disparaissait — texte devenu illisible en mode sombre
+- Correctifs de la **fusion de comptes** Canvas + champ **Département** SpotMe passé en lecture seule
 
 ### 1.1.1 — 2026-06-02
 - Correction du rollback Canvas sur les champs identifiant (login, SIS ID) — endpoint logins corrigé

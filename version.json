@@ -1,6 +1,6 @@
 {
-    "version": "1.1.1",
-    "download_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.1.1",
-    "installer_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.1/AccountManagementApp-1.1.1-Setup.exe",
-    "notes": "Corrige le rollback Canvas (champs identifiant), les couleurs d'en-tetes Liaisons et le spinner de recherche (anime desormais sur tous les onglets). Audit qualite/securite interne."
+    "version": "1.1.3",
+    "download_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.1.3",
+    "installer_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.1/AccountManagementApp-1.1.3-Setup.exe",
+    "notes": "Correction Salesforce : toutes les opérations (recherche, objets, champs, labels, mise à jour) passent maintenant par le CLI sf au lieu d'appels HTTP directs — résout les erreurs INVALID_AUTH_HEADER et 401 sur certains orgs."
 }

@@ -8,7 +8,7 @@ Application de bureau Windows pour rechercher et modifier des comptes utilisateu
 
 | Version | Installeur | MSI (déploiement silencieux) |
 |---|---|---|
-| **1.1.2** *(dernière)* | [AccountManagementApp-1.1.2-Setup.exe](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.2/AccountManagementApp-1.1.2-Setup.exe) | [AccountManagementApp-1.1.2.msi](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.2/AccountManagementApp-1.1.2.msi) |
+| **1.1.3** *(dernière)* | [AccountManagementApp-1.1.3-Setup.exe](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.3/AccountManagementApp-1.1.3-Setup.exe) | [AccountManagementApp-1.1.3.msi](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.3/AccountManagementApp-1.1.3.msi) |
 
 Toutes les versions : [Releases →](https://github.com/neanesis/AccountManagementApp-releases/releases)
 
@@ -91,6 +91,19 @@ L'application nécessite un fichier `license.json` fourni par votre administrate
 ---
 
 ## Changelog
+
+### 1.1.3 - 2026.06.08
+- **Salesforce — authentification CLI complète
+- Le token `accessToken` retourné par `sf org display` était rejeté par l'API REST Salesforce (`INVALID_AUTH_HEADER`). Toutes les opérations Salesforce passent désormais par la CLI `sf` qui gère l'authentification en interne :
+- **Objets / Champs** (`sf api request rest`) — dialog « Configurer les objets »
+- **Recherche** (`sf data query`) — onglet Salesforce, onglet Liaison, onglet Participants
+- **Sauvegarde** (`sf api request rest --method PATCH`) — édition inline des enregistrements
+- **Labels** — résolution des libellés de champs dans l'en-tête du tableau
+
+- Autres corrections
+- Correction du crash d'encodage `cp1252 → utf-8` lors du describe d'objets avec beaucoup de champs (Contact, etc.)
+- Le bouton « Objets » de l'onglet Salesforce et celui du dialog de profil utilisent désormais le même code (`open_sf_schema_dialog`)
+- Ajout de `app/__main__.py` pour permettre le lancement via `python -m app
 
 ### 1.1.2 — 2026-06-03
 - **Connecteurs extensibles** : ajout d'un connecteur en déposant un fichier, sans réinstaller (menu Outils → Connecteurs)

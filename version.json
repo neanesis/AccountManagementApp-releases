@@ -1,6 +1,6 @@
 {
-    "version": "1.1.4",
-    "download_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.1.4",
-    "installer_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.4/AccountManagementApp-1.1.4-Setup.exe",
-    "notes": "Correction de l'affichage du profil actif (nom mis à jour immédiatement au changement et au renommage de profil) et réparation des profils sans pipeline. Métadonnées éditeur ajoutées à l'application pour réduire les blocages antivirus."
+    "version": "1.1.5",
+    "download_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/tag/v1.1.5",
+    "installer_url": "https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.5/AccountManagementApp-1.1.5-Setup.exe",
+    "notes": "Corrections onglet Program : instances et label de pipeline mis a jour au changement de profil."
 }

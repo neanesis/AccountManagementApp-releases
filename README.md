@@ -8,7 +8,7 @@ Application de bureau Windows pour rechercher et modifier des comptes utilisateu
 
 | Version | Installeur | MSI (déploiement silencieux) |
 |---|---|---|
-| **1.1.4** *(dernière)* | [AccountManagementApp-1.1.4-Setup.exe](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.4/AccountManagementApp-1.1.4-Setup.exe) | [AccountManagementApp-1.1.4.msi](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.4/AccountManagementApp-1.1.4.msi) |
+| **1.1.5** *(dernière)* | [AccountManagementApp-1.1.5-Setup.exe](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.5/AccountManagementApp-1.1.5-Setup.exe) | [AccountManagementApp-1.1.5.msi](https://github.com/neanesis/AccountManagementApp-releases/releases/download/v1.1.5/AccountManagementApp-1.1.5.msi) |
 
 Toutes les versions : [Releases →](https://github.com/neanesis/AccountManagementApp-releases/releases)
 
@@ -91,6 +91,9 @@ L'application nécessite un fichier `license.json` fourni par votre administrate
 ---
 
 ## Changelog
+
+### 1.1.5 - 2026.06.09
+- Corrections onglet Program : instances et label de pipeline mis a jour au changement de profil.
 
 ### 1.1.4 - 2026.06.09
 - **Profil actif** : le nom du profil affiché se met à jour immédiatement lors d'un changement ou d'un renommage de profil (auparavant figé jusqu'au redémarrage)
